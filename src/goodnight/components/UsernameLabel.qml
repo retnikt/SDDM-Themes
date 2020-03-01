@@ -25,7 +25,7 @@ Text {
     font.pointSize: conf("text.size")
     font.italic: conf("text.italic")
     font.bold: conf("text.bold")
-    font.capitalization: Font.Capitalize
+//    font.capitalization: Font.Capitalize
     visible: text === "" ? false : true
     opacity: visible ? 1 : 0
     Component.onCompleted: if (conf("text.font") != "") font.family = conf("text.font")

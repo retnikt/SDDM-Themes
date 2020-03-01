@@ -102,7 +102,7 @@ Item {
             font.pointSize: user.isCurrent ? conf("text.size.focus") : conf("text.size.normal")
             font.bold: user.isCurrent ? conf("text.bold.focus") : conf("text.bold.normal")
             font.italic: conf("text.italic")
-            font.capitalization: Font.Capitalize
+//            font.capitalization: Font.Capitalize
             visible: showUsername && constrainText
             Component.onCompleted: if (conf("text.font") != "") font.family = conf("text.font")
         }
